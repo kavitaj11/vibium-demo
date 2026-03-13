@@ -1,0 +1,14 @@
+{
+  "name": "vibium-demo",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Vibium smoke demo scripts for k11softwaresolutions.com",
+  "scripts": {
+    "vibium:k11:async": "node scripts/vibium/k11-smoke-async.mjs",
+    "vibium:k11:sync": "node scripts/vibium/k11-smoke-sync.cjs"
+  },
+  "dependencies": {
+    "vibium": "^26.3.11"
+  }
+}
